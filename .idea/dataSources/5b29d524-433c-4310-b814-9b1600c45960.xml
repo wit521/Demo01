@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - db_ssm@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="db_ssm">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="b2b2c"/>
+    <schema id="4" parent="1" name="b2b2c_dev"/>
+    <schema id="5" parent="1" name="db_ekager"/>
+    <schema id="6" parent="1" name="db_haohuijia"/>
+    <schema id="7" parent="1" name="db_jiedai"/>
+    <schema id="8" parent="1" name="db_lyadmin"/>
+    <schema id="9" parent="1" name="db_met"/>
+    <schema id="10" parent="1" name="db_qdmtc"/>
+    <schema id="11" parent="1" name="db_qdqt"/>
+    <schema id="12" parent="1" name="db_qianshui"/>
+    <schema id="13" parent="1" name="db_tcsaas"/>
+    <schema id="14" parent="1" name="db_west"/>
+    <schema id="15" parent="1" name="db_wuye"/>
+    <schema id="16" parent="1" name="dcpay"/>
+    <schema id="17" parent="1" name="dcpay_dev"/>
+    <schema id="18" parent="1" name="dedecmsv57gbksp1"/>
+    <schema id="19" parent="1" name="information_schema"/>
+    <schema id="20" parent="1" name="jeecg_3_7"/>
+    <schema id="21" parent="1" name="jeeplus_activity"/>
+    <schema id="22" parent="1" name="jeeplus_ani_big"/>
+    <schema id="23" parent="1" name="jeeplus_schema"/>
+    <schema id="24" parent="1" name="mysql"/>
+    <schema id="25" parent="1" name="performance_schema"/>
+    <schema id="26" parent="1" name="phpmyadmin"/>
+    <schema id="27" parent="1" name="tenement"/>
+    <schema id="28" parent="1" name="tenement_dev"/>
+    <table id="29" parent="2" name="pu_user"/>
+    <column id="30" parent="29" name="user_id">
+      <Position>1</Position>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="29" name="user_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="32" parent="29" name="password">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="33" parent="29" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
